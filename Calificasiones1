@@ -1,0 +1,36 @@
+package eeee;
+
+import java.util.Scanner;
+
+public class Calificasiones1 {
+
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+    
+    float calificasion,calificasion1,calificasion2,promedio;
+    System.out.println("dame calificasion");
+    calificasion=teclado.nextFloat();
+    System.out.println("dame calificasion 1");
+    calificasion1=teclado.nextFloat();
+    System.out.println("dame calificasion 2");
+    calificasion2=teclado.nextFloat();
+    promedio=(calificasion+calificasion1+calificasion2)/3;
+    System.out.println("tu promedio es "+promedio); 
+        if (promedio>0&&promedio<5.99) {
+            System.out.println("es bajo");
+            
+        }
+        if (promedio>6&&promedio<7.5) {
+            System.out.println("es elemental");
+        }
+        if (promedio>7.6&&promedio<8.5) {
+            System.out.println("es intermedio");
+        }
+        if (promedio>8.6&&promedio<9.5) {
+            System.out.println("es bueno");
+        }
+        if (promedio>9.6&&promedio<10) {
+            System.out.println("Es excelente");
+        }
+    }
+}
