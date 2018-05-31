@@ -1,0 +1,18 @@
+package eeee;
+
+import java.util.Scanner;
+
+public class CalculadoraMetros {
+
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        float Metros;
+        System.out.println("ingresa metros");
+        Metros=teclado.nextFloat();
+        System.out.println("Kilometros="+Metros/1000);
+        System.out.println("Millas="+Metros/1609.34);
+        System.out.println("Yardas="+Metros/0.9144);
+        System.out.println("Pies="+Metros/0.3048);
+        
+    }
+}
