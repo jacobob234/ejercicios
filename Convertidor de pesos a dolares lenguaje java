@@ -1,0 +1,15 @@
+package eeee;
+
+import java.util.Scanner;
+
+public class PROGRAMA1 {
+
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+float pesos;
+float dolares=(float) 19.91;
+System.out.println("introduce la cantidad de pesos");
+pesos=teclado.nextFloat();
+System.out.println(" la cantidad de dolares convertida a dolares: "+pesos/dolares);
+}
+}
